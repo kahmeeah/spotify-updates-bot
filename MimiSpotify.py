@@ -14,7 +14,7 @@ CLIENT_ID = environ['SPO_ID']
 CLIENT_SECRET = environ['SPO_SECRET']
 scope = "user-read-currently-playing"
 username = "kahmeeah"
-redirect_uri = "https://mimispotifyupdates.herokuapp.com/"
+redirect_uri = "http://localhost:8080"
 
 CONSUMER_KEY = environ['API_KEY']
 CONSUMER_SECRET = environ['API_SECRET_KEY']
